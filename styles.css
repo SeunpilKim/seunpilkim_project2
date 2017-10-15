@@ -1,0 +1,336 @@
+/*  CSS Reset
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Add Project 2 CSS code --------------------------------------------------------------------------------------------*/
+
+/* Main navigation bar -----------------------------------------------------------------------------------------------*/
+#mmenu {
+    overflow: hidden;
+    background-color: #ce2727;
+    position: fixed;
+    top: 0;
+		left: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Links inside the navbar */
+#mmenu a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#mmenu a:hover {
+    background-color: #111111
+}
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+#profilephoto
+{
+    float: right;
+		height: 300px;
+    width: 250px;
+} 
+
+#jockerphoto
+{
+    float: left;
+		height: 350px;
+    width: 350px;
+		margin-top: 20px;
+} 
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+#about
+{
+    overflow: auto;
+    width: 98%;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-right: 150px;
+    margin-left: 5px;
+    padding: 10px;
+    border: 1px solid black;
+		background-color: #e5e112;
+}
+
+#about h1
+{
+      margin-left: 0px;
+      font: bold 30px arial, serif;
+}
+
+#about h2
+{
+      margin-left: 0px;
+      font: bold 25px/30px arial, serif;
+}
+
+#about p
+{
+      margin-left: 0px;
+      font:  20px/30px arial, serif;
+}
+
+
+/* School Images -------------------------------------------------------------------------------------------- */
+
+section.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 300px;
+    margin-right: 100px;
+		background-color: #12e590;
+}
+
+section.gallery:hover {
+    border: 1px solid #777;
+}
+
+section.gallery img {
+    width: 300px;
+    height: 200px;
+}
+
+section.gallery2 {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 300px;
+    margin-right: 300px;
+		background-color: #12e590;
+}
+
+section.gallery2:hover {
+    border: 1px solid #777;
+}
+
+section.gallery2 img {
+    width: 300px;
+    height: 200px;
+}
+
+
+section.desc {
+    padding: 15px;
+    text-align: center;
+		
+}
+
+#contact
+{
+    overflow: auto;
+    width: 98%;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-right: 150px;
+    margin-left: 5px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* Resume CSS --------------------------------------------------------------------------------------------*/
+#personal
+{
+		text-align: right;
+    overflow: auto;
+    width: 98%;
+    margin-top: 50px;
+    margin-bottom: 5px;
+		margin-right: 0px;
+    padding: 10px;
+}
+#personal h1
+{
+	font:  bold 20px/30px arial, serif;
+}
+#Education
+{
+	margin-left:10px;
+}
+#Education h2
+{
+	font:  bold 18px/30px arial, serif;
+} 
+#Education strong
+{
+	font:  bold 16px/30px arial, serif;
+}
+#Education ul
+{
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	list-style-type: circle;
+}
+#Experience
+{
+	margin-top: 50px;
+	margin-left:10px;
+}
+#Experience h2
+{
+	font:  bold 18px/30px arial, serif;
+} 
+#Experience strong
+{
+	font:  bold 16px/30px arial, serif;
+}
+#Experience ul
+{
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	list-style-type: circle;
+}
+#Skills
+{
+	margin-top: 50px;
+	margin-left:10px;
+}
+#Skills h2
+{
+	font:  bold 18px/30px arial, serif;
+} 
+#Skills ul
+{
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	list-style-type: circle;
+}
+#Activities
+{
+	margin-top: 50px;
+	margin-left:10px;
+}
+#Activities h2
+{
+	font:  bold 18px/30px arial, serif;
+} 
+#Activities ul
+{
+	margin-left: 50px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	list-style-type: circle;
+}
+#Awards
+{
+	margin-top: 50px;
+	margin-left:10px;
+}
+#Awards h2
+{
+	font:  bold 18px/30px arial, serif;
+} 
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+#Favorites
+{
+	text-align: center;
+  overflow: auto;
+  width: 98%;
+  margin-top: 50px;
+  margin-bottom: 5px;
+	margin-right: 0px;
+  padding: 10px;
+}
+#Favorites h1
+{
+	font:  bold 40px arial, serif;
+	color: #e512d3;
+} 
+#Favorites h2
+{
+	font:  bold 20px arial, serif;
+	color: #1000ff;
+} 
+#music
+{
+	margin-left:10px;
+	text-align: center;
+}
+	
+#music h2
+{
+	font:  bold 20px arial, serif;
+	color:#ff0000;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+    background-color: #e0ebeb; 
+}
+.column h2{
+  text-align: center;
+  font: bold 20px/30px arial, serif;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
