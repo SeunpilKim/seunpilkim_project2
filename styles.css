@@ -207,6 +207,9 @@ section.desc {
 {
 	margin-left:10px;
 }
+#date{
+	text-align: right;
+}
 #Education h2
 {
 	font:  bold 18px/30px arial, serif;
