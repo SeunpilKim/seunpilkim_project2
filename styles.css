@@ -202,6 +202,7 @@ section.desc {
   margin-left: 5px;
   padding: 10px;
   border: 1px solid black;
+	background-color: red;
 }
 
 /* Resume CSS --------------------------------------------------------------------------------------------*/
